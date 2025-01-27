@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Karla',sans-serif;
+}
+
+body
+{
+    margin: 0;
+    background-color: #F5F7FB;
+    padding: 20px;
+}
+
+.MenuCard
+{
+    width: 294px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #293264;
+    font-size: larger;
+}
+
+.MenuCard--Details
+{
+    margin-top: 0;
+}
+
+.MenuCard--StartBtn
+{
+    background-color: #4D5B9E;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 193px;
+    height: 52px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.QuesCard
+{
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+    flex-direction: column;
+    color: #293264;
+    font-size: 20px;
+}
+
+.QuesCard--Ques
+{
+    margin-bottom: 17.5px;
+}
+
+.QuesCard--Options-div
+{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    overflow-x: auto;
+}
+
+.QuesCard--Option
+{
+    background-color:  #F5F7FB;
+    border-color: #293264;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: auto;
+    height: 27.5px;
+    color:  #293264;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.line
+{
+    border-bottom: 2px solid  #DBDEF0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.CheckAnswersBtn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+    background-color: #4D5B9E;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.Scorecard
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+}
+
+.Score
+{
+    color:  #293264;
+    margin-right: 20px;
+}
+
+.PlayAgainBtn
+{
+    background-color: #4D5B9E;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
